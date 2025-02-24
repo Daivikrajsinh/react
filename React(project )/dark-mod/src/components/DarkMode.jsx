@@ -12,7 +12,7 @@ function Header({ darkMode, setDarkMode }) {
     <header className={`header ${darkMode ? "dark" : "light"}`}>
       <h1>Dark Mode App</h1>
       <button onClick={() => setDarkMode(!darkMode)} className="toggle-button">
-        {darkMode ? "☀️" : "🌙"}
+        {darkMode ? "🌙" : "☀️"}
       </button>
     </header>
   );
