@@ -19,6 +19,11 @@ function Home() {
   }, []);
 
 
+
+  
+
+
+
   const filteredProducts =
     selectedCategory === "All"
       ? products
