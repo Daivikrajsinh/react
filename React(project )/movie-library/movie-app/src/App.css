@@ -1,0 +1,46 @@
+/* Base styles */
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Auth container */
+.auth-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Movie cards */
+.movie-card {
+  transition: transform 0.2s;
+}
+.movie-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .auth-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}
+
+/* Loading spinner */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* Error message */
+.error-message {
+  margin: 2rem auto;
+  max-width: 600px;
+}
